@@ -21,13 +21,13 @@ Convert a number in milliseconds to a standard duration string.
 ## Install
 
 ```
-npm install format-duration
+npm install format-duration-seconds
 ```
 
 ## Usage
 
 ```js
-const format = require('format-duration')
+import formatDuraction from  'format-duration-seconds';
 
 // anything under a second is rounded down to zero
 format(999) // '0:00'

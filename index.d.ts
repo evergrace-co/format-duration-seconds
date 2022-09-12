@@ -6,12 +6,12 @@ interface FormatDurationOptions {
 }
 
 /**
- * Convert a number in milliseconds to a standard duration string.
+ * Convert a number in seconds to a standard duration string.
  *
- * @param {number} ms The number to format.
+ * @param {number} seconds The number to format.
  * @param {object} options - Formatting options
  * @returns {string} The formatted duration string.
  */
- declare function formatDuration (ms: number, options?: FormatDurationOptions): string
+ declare function formatDuration (seconds: number, options?: FormatDurationOptions): string
 
  export = formatDuration
