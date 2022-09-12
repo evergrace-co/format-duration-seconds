@@ -1,6 +1,6 @@
 {
-  "name": "format-duration",
-  "description": "Convert a number in milliseconds to a standard duration string.",
+  "name": "format-duration-seconds",
+  "description": "Convert a number in seconds to a standard duration string.",
   "version": "2.0.0",
   "author": "Nate Goldman <ungoldman@gmail.com> (https://ungoldman.com/)",
   "bugs": {
